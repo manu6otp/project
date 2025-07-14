@@ -1,0 +1,21 @@
+{
+	"name": "lsonpremsql",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "MMENON\\SQLEXPRESS",
+			"database": "AdventureWorks2022",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "sqluser",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIxYzhjNDQ5MS0yZThlLTRhMjAtOGU2My0zMmMzZDBhYzJjOGEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime2selfhosted",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

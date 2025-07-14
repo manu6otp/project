@@ -1,0 +1,30 @@
+{
+	"name": "Pl_Databricks notebook",
+	"properties": {
+		"activities": [
+			{
+				"name": "scd1",
+				"type": "DatabricksNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": true,
+					"secureInput": true
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/mmenon@microsoft.com/ADF Test1"
+				},
+				"linkedServiceName": {
+					"referenceName": "ls_adbnotebook",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2025-07-13T16:54:23Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

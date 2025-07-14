@@ -1,0 +1,21 @@
+{
+	"name": "dsparquetadfsink",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lsadfsource",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "parquet",
+				"fileSystem": "manuadfsink"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

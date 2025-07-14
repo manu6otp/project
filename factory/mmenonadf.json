@@ -1,0 +1,9 @@
+{
+	"name": "mmenonadf",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "88d5ab58-de28-41a2-98e7-0b0d8b5d61e4",
+		"tenantId": "16b3c013-d300-468d-ac64-7eda0820b6d3"
+	}
+}
